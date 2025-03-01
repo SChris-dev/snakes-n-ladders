@@ -3,28 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Snakes & Ladders</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            width: 100vw;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        canvas {
-            border: 1px solid black;
-        }
-    </style>
+    <title>Snake & Ladders</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <canvas id="canvas"></canvas>
-    <button id="rollButton">Roll!</button>
     
+    <h2 id="turnIndicator">Roll the dice to start!</h2>
+    <canvas id="board"></canvas>
+    <button id="rollDiceBtn">Roll dice!</button>
+
+    <script src="menu.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
